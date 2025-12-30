@@ -1230,6 +1230,9 @@ class TextModel(ModelBase):
         if chkhsh == "4a2e2abae11ca2b86d570fc5b44be4d5eb5e72cc8f22dd136a94b37da83ab665":
             # ref: https://huggingface.co/KORMo-Team/KORMo-tokenizer
             res = "kormo"
+        if chkhsh == "a3ab9069a4c073804dfd16a852e6a0776cba5a46402ec3c7325851b57e0c4869":
+            # ref: https://huggingface.co/norallm/normistral-7b-warm
+            res = "normistral-7b-warm"
 
         if res is None:
             logger.warning("\n")
